@@ -1,46 +1,30 @@
 <template>
-    <section>
-        <b-field label="Name">
-            <b-input value="Kevin Garvey"></b-input>
-        </b-field>
-
-        <b-field label="Email"
-            type="is-danger"
-            message="This email is invalid">
-            <b-input type="email"
-                value="john@"
-                maxlength="30">
-            </b-input>
-        </b-field>
-
-        <b-field label="Username"
-            type="is-success"
-            message="This username is available">
-            <b-input value="johnsilver" maxlength="30"></b-input>
-        </b-field>
-
-        <b-field label="Password"
-            type="is-warning"
-            :message="['Password is too short', 'Password must have at least 8 characters']">
-            <b-input value="123" type="password" maxlength="30"></b-input>
-        </b-field>
-
-        <b-field label="Subject">
-            <b-select placeholder="Select a subject">
-                <option value="1">Option 1</option>
-                <option value="2">Option 2</option>
-            </b-select>
-        </b-field>
-    </section>
+  <section>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">
+          <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: Free, open source, & modern CSS framework based on Flexbox" width="112" height="28">
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    </nav>
+  </section>
 </template>
 
 <script>
-    export default {
-        data() {
-            return {
-                checkbox: false,
-                checkboxCustom: 'Yes'
-            }
-        }
-    }
+export default {
+  data() {
+      return {
+      }
+  }
+}
 </script>
+<style>
+.navbar {
+  background-color: grey;
+}
+</style>

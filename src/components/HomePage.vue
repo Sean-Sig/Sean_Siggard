@@ -1,5 +1,5 @@
-<template>
-  <div class="home-page-outer">
+<!-- <template>
+  <div >
 
   </div>
 </template>
@@ -8,10 +8,4 @@
 export default {
   props: ['darkTextColor']
 }
-</script>
-
-<style scoped>
-.home-page-outer {
-  margin-top: 60px;
-}
-</style>
+</script> -->

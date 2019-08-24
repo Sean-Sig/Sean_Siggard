@@ -2,6 +2,7 @@
   <div id="app">
     <LandingPage></LandingPage>
     <ExerciseTable></ExerciseTable>
+    <About></About>
   </div>
 </template>
 

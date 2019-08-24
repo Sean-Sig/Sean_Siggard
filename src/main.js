@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import Buefy from 'buefy'
 
+import About from '@/components/sections/About'
 import LandingPage from '@/components/sections/LandingPage'
 import ExerciseTable from '@/components/sections/ExerciseTable'
 import router from '@/router'
@@ -9,6 +10,7 @@ import router from '@/router'
 Vue.use(Buefy)
 Vue.config.productionTip = false
 
+Vue.component('About', About)
 Vue.component('LandingPage', LandingPage)
 Vue.component('ExerciseTable', ExerciseTable)
 
