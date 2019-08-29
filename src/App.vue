@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-    <LandingPage></LandingPage>
-    <ExerciseTable></ExerciseTable>
-    <About></About>
+    <router-view></router-view>
   </div>
 </template>
 

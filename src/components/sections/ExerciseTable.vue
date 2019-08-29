@@ -3,10 +3,10 @@
   <div class="hero-body">
     <div class="container">
       <h1 class="title">
-        Hello! My name is Sean Siggard
+        Hello, my name is Sean
       </h1>
       <h2 class="subtitle">
-        Welcome to my site
+        Welcome to my site!
       </h2>
     </div>
   </div>
