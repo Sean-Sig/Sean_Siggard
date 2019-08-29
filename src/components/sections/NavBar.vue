@@ -3,8 +3,8 @@
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <div class="navbar-item">
-          <p class="name-logo">
-            Sean Siggard
+          <p>
+            <router-link class="name-logo" :to="{ name: 'HomePage' }">Sean <strong>Siggard</strong></router-link>
           </p>
         </div>
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
@@ -16,12 +16,8 @@
       <div class="navbar-end">
         <div class="navbar-item">
           <div class="buttons">
-            <a class="button is-primary">
-              <strong>Work</strong>
-            </a>
-            <a class="button is-light">
-              resume
-            </a>
+            <router-link class="button is-primary" :to="{ name: 'ProjectsPage' }"><strong>Projects</strong></router-link>
+            <router-link class="button is-light" :to="{ name: 'ResumePage' }">Resume</router-link>
           </div>
         </div>
       </div>

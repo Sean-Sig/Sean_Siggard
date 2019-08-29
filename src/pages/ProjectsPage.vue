@@ -1,6 +1,6 @@
-<!-- <template>
-  <div >
-
+<template>
+  <div>
+    <NavBar></NavBar>
   </div>
 </template>
 
@@ -8,4 +8,4 @@
 export default {
   props: ['darkTextColor']
 }
-</script> -->
+</script>
