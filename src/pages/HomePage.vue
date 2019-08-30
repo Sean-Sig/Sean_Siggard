@@ -1,7 +1,7 @@
 <template>
   <div>
     <NavBar></NavBar>
-    <ExerciseTable></ExerciseTable>
+    <Welcome></Welcome>
     <About></About>
   </div>
 </template>
