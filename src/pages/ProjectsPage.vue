@@ -14,11 +14,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: ['darkTextColor']
-}
-</script>
 <style>
 .boxes {
   margin-top: 15%;
