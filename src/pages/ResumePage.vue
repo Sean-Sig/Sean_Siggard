@@ -1,17 +1,11 @@
 <template>
-  <div>
-    <NavBar></NavBar>
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <ApioLogo></ApioLogo>
-    <br />
-    <br />
-    <br />
-    <br />
-    <Skills></Skills>
-  </div>
+  <section>
+    <div>
+      <NavBar></NavBar>
+      <ApioLogo></ApioLogo>
+      <Contacts></Contacts>
+      <Uvu></Uvu>
+      <Skills></Skills>
+    </div>
+  </section>
 </template>

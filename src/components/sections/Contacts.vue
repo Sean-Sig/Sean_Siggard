@@ -1,20 +1,20 @@
 <template>
-  <section class="hero apio-background">
+  <section class="hero contacts-background">
   <div class="hero-body">
     <div class="container">
       <div class="columns">
         <div class="column is-3">
-          <img src="@/assets/apio.svg">
+          <img src="@/assets/contacts-logo.svg">
           <div class="title has-text-white">
-            Software Engineer
+            Software Engineer in Test Intern
           </div>
           <div class="sub-title has-text-white">
-            Lehi, Utah
+            Draper, Utah
           </div>
         </div>
         <div class="column is-9">
           <div class="sub-title is-pulled-right has-text-white">
-            November 2018 - Present
+            May 2018 - August 2018
           </div>
         </div>
       </div>
@@ -24,7 +24,7 @@
 </template>
 
 <style>
-.apio-background {
-  background-color: #433B4D;
+.contacts-background {
+  background-color: #001D9B;
 }
 </style>
