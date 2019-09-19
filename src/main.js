@@ -6,6 +6,7 @@ import About from '@/components/sections/About'
 import ApioLogo from '@/components/sections/ApioLogo'
 import Box from '@/components/Box'
 import Contacts from '@/components/sections/Contacts'
+import Footer from '@/components/sections/Footer'
 import NavBar from '@/components/sections/NavBar'
 import Skills from '@/components/sections/Skills'
 import Uvu from '@/components/sections/Uvu'
@@ -19,6 +20,7 @@ Vue.component('About', About)
 Vue.component('ApioLogo', ApioLogo)
 Vue.component('Box', Box)
 Vue.component('Contacts', Contacts)
+Vue.component('Footer', Footer)
 Vue.component('NavBar', NavBar)
 Vue.component('Skills', Skills)
 Vue.component('Uvu', Uvu)

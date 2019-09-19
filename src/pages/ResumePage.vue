@@ -6,6 +6,7 @@
       <Contacts></Contacts>
       <Uvu></Uvu>
       <Skills></Skills>
+      <Footer></Footer>
     </div>
   </section>
 </template>

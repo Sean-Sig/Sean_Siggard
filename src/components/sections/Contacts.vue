@@ -18,13 +18,43 @@
           </div>
         </div>
       </div>
+      <div class="columns">
+        <div class="column">
+          <div class="content has-text-white">
+            <ul>
+              <li>
+                Took lead role in creating Integration test on client library
+              </li>
+              <li>
+                Pair programmed on the development of REST based backend Enterprise microservices which back ended the 1800 Contacts website.
+              </li>
+              <li>
+                Created Selenium test on login page for 1800 Contacts website
+              </li>
+              <li>
+                Wrote SQL queries to test data integrity
+              </li>
+              <li>
+                Developed automated tests in C# for the EyeMed Client library which is still used today
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 </template>
 
-<style>
+<style scoped>
 .contacts-background {
   background-color: #001D9B;
+}
+ul {
+  margin-top: 2em;
+  padding-left: 40px;
+}
+li {
+  padding-top: 10px;
 }
 </style>
