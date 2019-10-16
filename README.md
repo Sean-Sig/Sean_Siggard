@@ -1,4 +1,4 @@
-# fitness-tracker
+# Sean's Resume Website
 
 ## Project setup
 ```
